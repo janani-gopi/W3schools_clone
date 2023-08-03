@@ -1,0 +1,27 @@
+ .pink , .black , .green , .yellow {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 25px;
+ }
+ .container{
+    padding: 5rem 0 2rem 10rem;
+    text-align: center;
+ }
+ .green{
+   background-color: green;
+   color: white;
+ }
+ .yellow{
+    background-color: yellow;
+    color: black;
+  }
+  .black{
+    background-color: black;
+    color: white;
+  }
+  .pink{
+    background-color: pink;
+    color: black;
+  }

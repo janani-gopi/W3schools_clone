@@ -1,0 +1,25 @@
+.codeContainer{
+ margin: 5rem;   
+ height: 70vh;
+ width: 40vw;
+ background-color:lightgray;
+}
+.code{
+  height: 50vh;
+  background-color: white;
+  margin: 2rem .5rem 1rem .5rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.code p{
+    padding: .5rem;
+    margin-bottom: .3rem;
+}
+
+.codeContainer a{
+    margin-left: 1rem;
+    width: 40%;
+    transform: translateY(-10px);
+    margin-top: 2rem;
+}

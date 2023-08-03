@@ -1,0 +1,93 @@
+.logo{
+  width: 3rem;
+}
+
+.navBar{
+ padding: .6rem;
+ display: flex;
+ justify-content: space-between;
+}
+
+.Hero{
+    background-color: #242424;
+    height: 90vh;
+    text-align: center;
+}
+h1{
+    font-size: 4rem;
+}
+.marginBtm{
+    margin-bottom: 2rem;
+}
+input, input:focus{
+    padding: 1rem 10rem 1rem 1.5rem;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    outline: none;
+}
+h2 a{
+    color: white;
+}
+a:hover{
+    color: rgb(30, 180, 16);
+}
+
+.heroText{
+    color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+.searchIcon{
+    background-color: rgb(30, 180, 16);
+    padding: 1rem 1.5rem 1rem 4rem;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+}
+
+.signup {
+    background-color: rgb(30, 180, 16);
+    border-radius: 25px;
+    padding: .7rem 2.3rem 1.4rem 1.3rem ;
+    color: aliceblue;
+    cursor: pointer;
+    position: absolute;
+    right: 77px;
+    z-index: 1001;
+} 
+.signup:hover{
+    color: white;
+}
+.login{
+    background-color: rgb(167, 240, 160);
+    border-radius: 25px;
+    color:black;
+    cursor: pointer;
+    position: absolute;
+    padding: 1rem 1rem 1rem 3rem;
+    right: 20px;
+    z-index: 1000;
+}
+.login:hover{
+    background-color: rgb(30, 180, 16) ;
+    color: white;
+}
+.login_signup{
+    position: relative;
+    text-align: center;
+}
+
+.navBar p{
+    display: inline;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-left: .5rem;
+    cursor: pointer;
+}
+.navBar p:hover{
+  background-color: rgb(30, 180, 16);
+  color: aliceblue;
+}

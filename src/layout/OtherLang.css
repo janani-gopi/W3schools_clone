@@ -1,0 +1,61 @@
+.otherlangContainerLarge{
+    background-color: #242424;
+    position: relative;
+}
+.otherlangContainer{
+    display: flex;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: #242424;
+}
+
+.otherLang{
+    height: 30vh;
+    width: 40vw;
+    padding: 2rem;
+    border-radius: .5rem;
+    background-color: #d9eee1;
+}
+.otherLang a{
+    background-color: #242424;
+    color: aliceblue;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.otherLang h1{
+    font-size: 2.5rem;
+}
+
+.flexContainer{
+    display: flex;
+    gap: 2rem 2rem;
+    padding: 4rem;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+
+.flexContainer a{
+    margin: 0 auto;
+    height: 4rem;
+    width: 10rem ;
+   cursor: pointer;
+   color: #242424;
+   background-color:#d9eee1;
+   border-radius: .5rem;
+   padding: 3rem;
+   
+}
+
+.flexContainer a h1{
+    font-size: 2rem;
+}
+#span2{
+   width: 32rem;
+}
