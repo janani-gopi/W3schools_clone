@@ -24,5 +24,4 @@ export const otherlang = [
         name:"BOOTSTRAP",
         description:"A CSS framework to design webpages"
     },
-
 ]

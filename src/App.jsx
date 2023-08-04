@@ -22,7 +22,7 @@ function App() {
  
   return (
     <div>
-      <Navbar state1={setShow} state2={setPage}/>
+      <Navbar toggleState={setShow} pageState={setPage}/>
       { show ? 
              page == "Tutorials" && <Tutorials/> || page == "Excercises" && <Exercises/> ||  page == "Get certified" && <Getcertified/> || page == "Services" && <Services/>
             :

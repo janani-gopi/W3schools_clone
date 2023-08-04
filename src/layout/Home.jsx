@@ -1,5 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Home.css'
+
+const LANG = ["HTML", "CSS","JAVASCRIPT", 'PYTHON','SQL', 'JAVA', 'PHP', 'BOOTSTRAP','C','C++','C#','REACT']
 
 
 function Home() {
@@ -9,18 +11,11 @@ function Home() {
        <div>
         <div className='Hero'>
           <div className='heroTop'>
-             <h3>HTML</h3>
-             <h3>CSS</h3>
-             <h3>JAVASCRIPT</h3>
-             <h3>PYTHON</h3>
-             <h3>SQL</h3>
-             <h3>JAVA</h3>
-             <h3>PHP</h3>
-             <h3>BOOTSTRAP</h3>
-             <h3>C</h3>
-             <h3>C++</h3>
-             <h3>C#</h3>
-             <h3>REACT</h3>
+             {
+              LANG.map((eachLang)=>{
+                return <h3>{eachLang}</h3>
+              })
+             }
           </div>
              <div className='heroText'>
                  <h1 className='marginBtm'>Learn to code</h1>
