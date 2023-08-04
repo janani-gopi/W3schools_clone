@@ -4,7 +4,7 @@ import './CodeSample.css'
 function CodeSample({lang,code}) {
   return (
     <div className='codeContainer'>
-       {lang} Example
+       <p>{lang} Example</p>
        <div className='code'>
            <pre>
               <code>

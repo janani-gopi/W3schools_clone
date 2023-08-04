@@ -9,10 +9,7 @@ function Javascript() {
       <LangIntro lang="Javascript" desc="programming web pages"/>
       <CodeSample 
       lang="Javascript"
-      code ="
-         
-      "
-          />
+      code ={"  <button onclick='myFunction()''>Click Me!</button>\n\n  <script>\n\n  function myFunction() {\n\n  let x = document.getElementById('demo');\n\n  x.style.fontSize = '25px';\n\n  x.style.color = 'red'}\n\n  </script>"}  />
     </div>
   )
 }

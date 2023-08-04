@@ -1,9 +1,12 @@
 .logo{
   width: 3rem;
 }
+.description{
+    color: pink;
+}
 
 .navBar{
- padding: .6rem;
+ padding: .7rem;
  display: flex;
  justify-content: space-between;
 }
@@ -14,12 +17,13 @@
     text-align: center;
 }
 h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
+    font-weight: 700;
 }
 .marginBtm{
     margin-bottom: 2rem;
 }
-input, input:focus{
+.heroText input, .heroText input:focus{
     padding: 1rem 10rem 1rem 1.5rem;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -70,6 +74,7 @@ a:hover{
     padding: 1rem 1rem 1rem 3rem;
     right: 20px;
     z-index: 1000;
+    text-decoration: none;
 }
 .login:hover{
     background-color: rgb(30, 180, 16) ;
@@ -90,4 +95,17 @@ a:hover{
 .navBar p:hover{
   background-color: rgb(30, 180, 16);
   color: aliceblue;
+}
+.heroTop{
+    color: aliceblue;
+    display: flex;
+}
+.heroTop h3{
+    padding: .5rem 1rem .5rem 1rem;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.heroTop h3:hover{
+    background-color: black;
 }
